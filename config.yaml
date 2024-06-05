@@ -37,3 +37,9 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+   - id:new-api
+     name:my new api
+     url:https://new-api-latest-2pj0.onrender.com/
+     method:GET
+     expectStatus:200
